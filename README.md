@@ -33,6 +33,7 @@ Update the variables for your Azure subscription and SSH key location.
 Run these commands:
 
 terraform init
+
 terraform apply
 
 When it’s done, SSH into your VM with:
