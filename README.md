@@ -25,7 +25,6 @@ An SSH key pair to connect to the VM (you can generate one by typing "ssh-keygen
 How to use it: 
 Clone this repo:
 
-bash
 git clone https://github.com/WildPoro/your-repo-name.git
 cd your-repo-name
 
@@ -33,11 +32,9 @@ Update the variables for your Azure subscription and SSH key location.
 
 Run these commands:
 
-bash
 terraform init
 terraform apply
 
 When it’s done, SSH into your VM with:
 
-bash
 ssh -i ~/.ssh/terraform_key username@your-vm-ip
