@@ -1,5 +1,5 @@
   variable "ID"{
-      default = "eca410d1-a4cf-47e5-9060-f48a70361368"
+      default = "#####################################"
   }
   variable "location"{
       default = "West US 2"
