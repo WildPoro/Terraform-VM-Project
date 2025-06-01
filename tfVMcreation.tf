@@ -33,7 +33,7 @@
       }
       admin_ssh_key {
         username = "kzotka"
-        public_key = file("/Users/kristi/.ssh/terraform_key.pub")
+        public_key = file("######################") #This is the location where your ssh private key will be saved. You need this key to be able to ssh to your VM after creation
       }
   }
   # Virtual Network
